@@ -1,0 +1,13 @@
+# Set the default character encoding to UTF-8
+defutf8 on
+
+# Disable the startup message
+startup_message off
+
+# Increase the maximum number of lines contained
+# in the scrollback buffer (defaults to 100)
+defscrollback 20000
+
+# Very nice tabbed colored hardstatus line
+hardstatus alwayslastline
+hardstatus string "%{ck} %C%A %{GK} %H %{rk} :%n %{dd} %-w%{Kd}[%{bd}%n* %t%{Kd}]%{dd}%+w"
